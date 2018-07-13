@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0CF18B20D8E73800C10A09 /* AFCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0CF18A20D8E73800C10A09 /* AFCResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0CF18D20D8EFD300C10A09 /* AFCInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0CF18C20D8EFD300C10A09 /* AFCInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0CF19020D8F6BE00C10A09 /* AFCTestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CF18F20D8F6BE00C10A09 /* AFCTestRequest.m */; };
+		4B0CF19320D8F6DC00C10A09 /* AFCTestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CF19220D8F6DC00C10A09 /* AFCTestResponse.m */; };
+		4B0CF19620D8F6EE00C10A09 /* AFCTestInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CF19520D8F6EE00C10A09 /* AFCTestInterceptor.m */; };
 		4B99832C20D8A4B900B581DB /* AFNClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B99832220D8A4B900B581DB /* AFNClient.framework */; };
 		4B99833120D8A4B900B581DB /* AFNClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B99833020D8A4B900B581DB /* AFNClientTests.m */; };
 		4B99833320D8A4B900B581DB /* AFNClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B99832520D8A4B900B581DB /* AFNClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B99833F20D8A5C900B581DB /* AFCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B99833D20D8A5C900B581DB /* AFCRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B99834320D8A76300B581DB /* AFCHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B99834120D8A76300B581DB /* AFCHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B99834420D8A76300B581DB /* AFCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B99834220D8A76300B581DB /* AFCHttpClient.m */; };
+		58A1068FD3EBABA77ECDD7E0 /* libPods-AFNClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45C11A90C1CB8E7F97DBAF4 /* libPods-AFNClient.a */; };
+		D567A6FB2EA40E83E1EFBF68 /* libPods-AFNClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B696E40A0FE80C3ABE6B08 /* libPods-AFNClientTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +33,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01280A0FF79D9481141933BC /* Pods-AFNClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNClient/Pods-AFNClient.debug.xcconfig"; sourceTree = "<group>"; };
+		03B696E40A0FE80C3ABE6B08 /* libPods-AFNClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A518E57B92D5F836C4B080 /* Pods-AFNClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNClientTests/Pods-AFNClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B0CF18A20D8E73800C10A09 /* AFCResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCResponse.h; sourceTree = "<group>"; };
+		4B0CF18C20D8EFD300C10A09 /* AFCInterceptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCInterceptor.h; sourceTree = "<group>"; };
+		4B0CF18E20D8F6BE00C10A09 /* AFCTestRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCTestRequest.h; sourceTree = "<group>"; };
+		4B0CF18F20D8F6BE00C10A09 /* AFCTestRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFCTestRequest.m; sourceTree = "<group>"; };
+		4B0CF19120D8F6DC00C10A09 /* AFCTestResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCTestResponse.h; sourceTree = "<group>"; };
+		4B0CF19220D8F6DC00C10A09 /* AFCTestResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFCTestResponse.m; sourceTree = "<group>"; };
+		4B0CF19420D8F6EE00C10A09 /* AFCTestInterceptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCTestInterceptor.h; sourceTree = "<group>"; };
+		4B0CF19520D8F6EE00C10A09 /* AFCTestInterceptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFCTestInterceptor.m; sourceTree = "<group>"; };
 		4B99832220D8A4B900B581DB /* AFNClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B99832520D8A4B900B581DB /* AFNClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNClient.h; sourceTree = "<group>"; };
 		4B99832620D8A4B900B581DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B99832B20D8A4B900B581DB /* AFNClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B99833020D8A4B900B581DB /* AFNClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNClientTests.m; sourceTree = "<group>"; };
 		4B99833220D8A4B900B581DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B99833D20D8A5C900B581DB /* AFCRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCRequest.h; sourceTree = "<group>"; };
+		4B99834120D8A76300B581DB /* AFCHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCHttpClient.h; sourceTree = "<group>"; };
+		4B99834220D8A76300B581DB /* AFCHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFCHttpClient.m; sourceTree = "<group>"; };
+		A45C11A90C1CB8E7F97DBAF4 /* libPods-AFNClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB671653B7E587EDB358CB10 /* Pods-AFNClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNClientTests/Pods-AFNClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F468B277918AD78ADE1719FA /* Pods-AFNClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNClient/Pods-AFNClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A1068FD3EBABA77ECDD7E0 /* libPods-AFNClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +72,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B99832C20D8A4B900B581DB /* AFNClient.framework in Frameworks */,
+				D567A6FB2EA40E83E1EFBF68 /* libPods-AFNClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A7EAA491E36F18FB960296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A45C11A90C1CB8E7F97DBAF4 /* libPods-AFNClient.a */,
+				03B696E40A0FE80C3ABE6B08 /* libPods-AFNClientTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B99831820D8A4B900B581DB = {
 			isa = PBXGroup;
 			children = (
 				4B99832420D8A4B900B581DB /* AFNClient */,
 				4B99832F20D8A4B900B581DB /* AFNClientTests */,
 				4B99832320D8A4B900B581DB /* Products */,
+				6A179FE0EA16D9CF3D9A1081 /* Pods */,
+				03A7EAA491E36F18FB960296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +111,7 @@
 		4B99832420D8A4B900B581DB /* AFNClient */ = {
 			isa = PBXGroup;
 			children = (
-				4B99832520D8A4B900B581DB /* AFNClient.h */,
+				4B99833C20D8A5AD00B581DB /* Classes */,
 				4B99832620D8A4B900B581DB /* Info.plist */,
 			);
 			path = AFNClient;
@@ -80,10 +120,40 @@
 		4B99832F20D8A4B900B581DB /* AFNClientTests */ = {
 			isa = PBXGroup;
 			children = (
+				4B0CF19420D8F6EE00C10A09 /* AFCTestInterceptor.h */,
+				4B0CF19520D8F6EE00C10A09 /* AFCTestInterceptor.m */,
+				4B0CF18E20D8F6BE00C10A09 /* AFCTestRequest.h */,
+				4B0CF18F20D8F6BE00C10A09 /* AFCTestRequest.m */,
+				4B0CF19120D8F6DC00C10A09 /* AFCTestResponse.h */,
+				4B0CF19220D8F6DC00C10A09 /* AFCTestResponse.m */,
 				4B99833020D8A4B900B581DB /* AFNClientTests.m */,
 				4B99833220D8A4B900B581DB /* Info.plist */,
 			);
 			path = AFNClientTests;
+			sourceTree = "<group>";
+		};
+		4B99833C20D8A5AD00B581DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B99834120D8A76300B581DB /* AFCHttpClient.h */,
+				4B99834220D8A76300B581DB /* AFCHttpClient.m */,
+				4B0CF18C20D8EFD300C10A09 /* AFCInterceptor.h */,
+				4B99833D20D8A5C900B581DB /* AFCRequest.h */,
+				4B0CF18A20D8E73800C10A09 /* AFCResponse.h */,
+				4B99832520D8A4B900B581DB /* AFNClient.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A179FE0EA16D9CF3D9A1081 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01280A0FF79D9481141933BC /* Pods-AFNClient.debug.xcconfig */,
+				F468B277918AD78ADE1719FA /* Pods-AFNClient.release.xcconfig */,
+				EB671653B7E587EDB358CB10 /* Pods-AFNClientTests.debug.xcconfig */,
+				31A518E57B92D5F836C4B080 /* Pods-AFNClientTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +163,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B99833F20D8A5C900B581DB /* AFCRequest.h in Headers */,
+				4B0CF18B20D8E73800C10A09 /* AFCResponse.h in Headers */,
+				4B0CF18D20D8EFD300C10A09 /* AFCInterceptor.h in Headers */,
+				4B99834320D8A76300B581DB /* AFCHttpClient.h in Headers */,
 				4B99833320D8A4B900B581DB /* AFNClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B99833620D8A4B900B581DB /* Build configuration list for PBXNativeTarget "AFNClient" */;
 			buildPhases = (
+				26704149AF58AE015A5A277C /* [CP] Check Pods Manifest.lock */,
 				4B99831D20D8A4B900B581DB /* Sources */,
 				4B99831E20D8A4B900B581DB /* Frameworks */,
 				4B99831F20D8A4B900B581DB /* Headers */,
@@ -122,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B99833920D8A4B900B581DB /* Build configuration list for PBXNativeTarget "AFNClientTests" */;
 			buildPhases = (
+				9E7D1F6B3EB187FC75AC3B37 /* [CP] Check Pods Manifest.lock */,
 				4B99832720D8A4B900B581DB /* Sources */,
 				4B99832820D8A4B900B581DB /* Frameworks */,
 				4B99832920D8A4B900B581DB /* Resources */,
@@ -142,6 +218,7 @@
 		4B99831920D8A4B900B581DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AFC;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = sinsmin;
 				TargetAttributes = {
@@ -188,11 +265,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26704149AF58AE015A5A277C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E7D1F6B3EB187FC75AC3B37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B99831D20D8A4B900B581DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B99834420D8A76300B581DB /* AFCHttpClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0CF19620D8F6EE00C10A09 /* AFCTestInterceptor.m in Sources */,
+				4B0CF19020D8F6BE00C10A09 /* AFCTestRequest.m in Sources */,
 				4B99833120D8A4B900B581DB /* AFNClientTests.m in Sources */,
+				4B0CF19320D8F6DC00C10A09 /* AFCTestResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -333,10 +453,12 @@
 		};
 		4B99833720D8A4B900B581DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01280A0FF79D9481141933BC /* Pods-AFNClient.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -349,6 +471,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sinsmin.AFNClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -356,10 +479,12 @@
 		};
 		4B99833820D8A4B900B581DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F468B277918AD78ADE1719FA /* Pods-AFNClient.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -372,6 +497,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sinsmin.AFNClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,6 +505,7 @@
 		};
 		4B99833A20D8A4B900B581DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB671653B7E587EDB358CB10 /* Pods-AFNClientTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AFNClientTests/Info.plist;
@@ -395,6 +522,7 @@
 		};
 		4B99833B20D8A4B900B581DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A518E57B92D5F836C4B080 /* Pods-AFNClientTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AFNClientTests/Info.plist;
