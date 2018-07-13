@@ -2,7 +2,7 @@
 //  AFCHttpClient.m
 //  AFNClient
 //
-//  Created by golds on 2018/6/19.
+//  Created by sinsmin on 2018/6/19.
 //  Copyright © 2018年 sinsmin. All rights reserved.
 //
 
@@ -182,10 +182,12 @@ NSErrorDomain const AFNClientErrorDomain = @"AFNClientErrorDomain";
         }
     } else if ([response conformsToProtocol:@protocol(AFCURLResponse)]) {
         id<AFCURLResponse> urlResponse = (id<AFCURLResponse>)response;
-        id wrapResponseObject = responseObject;
+        __block id wrapResponseObject = responseObject;
         for (id<AFCInterceptor> interceptor in _interceptors) {
             if ([interceptor respondsToSelector:@selector(didReceiveWithURLResponse:responseObject:)]) {
-                wrapResponseObject = [interceptor didReceiveWithURLResponse:resp responseObject:wrapResponseObject];
+                dispatch_sync(_processQueue, ^{
+                    wrapResponseObject = [interceptor didReceiveWithURLResponse:resp responseObject:wrapResponseObject];
+                });
             }
         }
         if ([urlResponse respondsToSelector:@selector(didCompleteWithURLResponse:responseObject:)]) {

@@ -2,7 +2,7 @@
 //  AFCRequest.h
 //  AFNClient
 //
-//  Created by golds on 2018/6/19.
+//  Created by sinsmin on 2018/6/19.
 //  Copyright © 2018年 sinsmin. All rights reserved.
 //
 
